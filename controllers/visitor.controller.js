@@ -26,9 +26,6 @@ class VisitorController {
             return res.status(200).send(create_response)
         } catch (error) {
             let message = error.message
-            if (error.code = "ENOTFOUND") {
-                message += ". Please check your internet connection and try again"
-            }
             return res.status(500).send({ error: message })
         }
 
