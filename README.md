@@ -30,7 +30,7 @@ npm test
 ```
 
 get request samples
-http://localhost:3000/api/visitors/?date=1633046400000
+http://localhost:3000/api/visitors/?date=1404198000000
 
-http://localhost:3000/api/visitors/?date=1633046400000&ignore=avila_adobe
+http://localhost:3000/api/visitors/?date=1404198000000&ignore=avila_adobe
 
