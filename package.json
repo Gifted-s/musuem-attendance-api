@@ -1,0 +1,19 @@
+{
+  "name": "assembly",
+  "version": "1.0.0",
+  "description": "Museum analytic data",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Adewumi Sunkanmi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jest": "^27.4.3"
+  }
+}
