@@ -4,7 +4,8 @@
   "description": "Museum analytic data",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "node index",
+    "test": "jest --coverage"
   },
   "author": "Adewumi Sunkanmi",
   "license": "ISC",
