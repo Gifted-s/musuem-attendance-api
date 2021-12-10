@@ -1,4 +1,4 @@
-# Muesum Analytic App
+# Museum Analytic App
 
 ### Requirements
 Node - [Download](https://nodejs.org/en/download/)
