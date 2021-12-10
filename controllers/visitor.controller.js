@@ -16,7 +16,7 @@ class VisitorController {
         const dateToISOString = fromMillisecondsToISOString(date)
         try {
             // fetch all the museums using the LA city API
-            let museums = await axios.get(`${LACITY_CONFIG.API_ROOT}/?month=${dateToISOString}01T00:00:00.000`)
+            let museums = await axios.get(`${LACITY_CONFIG.API_ROOT}/?month=${dateToISOString}-01T00:00:00.000`)
             // if LA city API does not have any record for that particular month
             if(museums.data.length===0){
                 return res.status(200).send({message:"LA city: sorry no record was taken for this particular month"})

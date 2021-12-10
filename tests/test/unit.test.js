@@ -22,7 +22,7 @@ describe('date validator', () => {
 
 describe('fromMillisecondsToISOString function', () => {
     it('must convert date in milliseconds to ISO date format ', () => {
-        expect(fromMillisecondsToISOString("1404198000000")).toBe("2014-07-01T00:00:00.000")
+        expect(fromMillisecondsToISOString("1404198000000")).toBe("2014-07")
     })
    
 })

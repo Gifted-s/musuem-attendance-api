@@ -3,7 +3,7 @@ function fromMillisecondsToISOString(date) {
     date = parseInt(date)
     date = new Date(date).toISOString()
      // since our search is based on month and year we will extract them from the ISO string
-    date = date.slice(0, 8) 
+    date = date.slice(0, 7) 
     return date
 }
 
