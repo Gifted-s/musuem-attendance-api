@@ -2,7 +2,8 @@ const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep
 function fromMillisecondsToISOString(date) {
     date = parseInt(date)
     date = new Date(date).toISOString()
-    date = date.slice(0, date.length - 1)
+     // since our search is based on month and year we will extract them from the ISO string
+    date = date.slice(0, 8) 
     return date
 }
 

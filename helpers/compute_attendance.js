@@ -23,7 +23,7 @@ function computeAttendance(museums, ignore) {
             highest_museum_visited = { museum: museum_name, visitors: musuem_visitors }
         }
         // if the current number of visitors is less than lowest_museum_visited
-        if (musuem_visitors < highest_museum_visited.visitors) {
+        if (musuem_visitors < lowest_museum_visited.visitors) {
             // reset lowest_museum_visited  to current museum
             lowest_museum_visited = { museum: museum_name, visitors: musuem_visitors }
         }

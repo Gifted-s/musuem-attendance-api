@@ -22,13 +22,13 @@ describe('date validator', () => {
 
 describe('fromMillisecondsToISOString function', () => {
     it('must convert date in milliseconds to ISO date format ', () => {
-        expect(fromMillisecondsToISOString("1404198000000")).toBe("2014-07-01T07:00:00.000")
+        expect(fromMillisecondsToISOString("1404198000000")).toBe("2014-07-01T00:00:00.000")
     })
    
 })
 describe('getMonthAndYear function', () => {
     it('must return month and and year from date in ISO string format', () => {
-        const test_date =getMonthAndYear("2014-07-01T07:00:00.000")
+        const test_date =getMonthAndYear("2014-07-01T00:00:00.000")
         expect(test_date).toBeDefined()
         expect(test_date.year).toBe(2014)
         expect(test_date.month).toBe("Jul")
